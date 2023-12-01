@@ -24,6 +24,7 @@ streamlit run home.py
 
 Default user: `admin`
 
+
 Default password: `admin`
 
 To change the credentials, check the official docs of Streamlit Authenticator: https://github.com/mkhorasani/Streamlit-Authenticator
