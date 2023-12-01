@@ -1,0 +1,14 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    .venv,
+    db_migrations/*,
+    .aws-sam
+extend-ignore = E203,E266,E501,W291,T101,BLK100,A003,VNE003,VNE001
+max-line-length = 120
+
+[isort]
+profilie = black
+line_length = 120

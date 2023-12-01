@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  webserver:
+    build: .
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "80:8080"
+    expose:
+      - "80"
+    volumes:
+      - ./save_files:/app/save_files

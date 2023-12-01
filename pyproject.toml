@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "streamlit-langchain"
+version = "0.1.0"
+description = ""
+authors = ["francomorero <franco.morero@bairesdev.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<3.9.7 || >3.9.7,<4.0.0"
+langchain = ">=0.0.284"
+python-dotenv = ">=1.0.0"
+openai = ">=0.28.0"
+tiktoken = ">=0.5.0"
+faiss-cpu = ">=1.7.4"
+cryptography = ">=41.0.3"
+streamlit = ">=1.26.0"
+watchdog = ">=3.0.0"
+streamlit-authenticator = ">=0.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

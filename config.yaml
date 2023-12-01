@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    admin:
+      email: admin
+      name: Admin
+      password: $2b$12$yz5R/PQBtvcaJaTnIeCZueHVmRysG.LtR5E3y2fWrcwN18nMTQBt2
+cookie:
+  expiry_days: 30
+  key: ai_summarize # Must be string
+  name: ai_summarize_cookie
